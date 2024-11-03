@@ -15,8 +15,9 @@ public class UserController {
     @GetMapping
     public List<User> getUsers() {
         return Arrays.asList(
-                new User(1, "Alice2"),
-                new User(2, "Bob")
+                new User(1, "Alice76548"),
+                new User(2, "Bob"),
+                new User(3, "Humeyra")
         );
     }
 }
