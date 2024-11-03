@@ -16,7 +16,8 @@ public class UserController {
     public List<User> getUsers() {
         return Arrays.asList(
                 new User(1, "Alice"),
-                new User(2, "Bob")
+                new User(2, "Bob"),
+                new User(3, "Humeyra")
         );
     }
 }
